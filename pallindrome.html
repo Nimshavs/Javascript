@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <script>
+        var d=0,num=0
+        var a=parseInt(prompt("enter number"))
+        n=a
+        document.write(a)
+        while(a>0){
+            d=a%10
+            num=(num*10)+d
+            a=Math.floor(a/10)
+            
+        }
+        document.write(" "+num)
+        if(n==num){
+            document.write(" Pallindrome")
+        }
+        else{
+            document.write(" not pallindrome")
+        }
+    </script>
+</body>
+</html>

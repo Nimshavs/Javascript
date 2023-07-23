@@ -1,0 +1,23 @@
+<html>
+    <body>
+        <script>
+            let i,j;
+            const a=[[1,2,3],[4,3,2],[1,2,6]]
+            const b=[[1,2,3],[4,3,2],[1,2,6]]
+            let c=[[],[],[]];
+            for(i=0;i<a.length;i++){
+                for(j=0;j<3;j++){
+                    c[i][j]=a[i][j]+b[i][j];
+                }
+            }
+            for(i=0;i<a.length;i++){
+                for(j=0;j<3;j++){
+
+                    document.write(" "+c[i][j])
+                }
+
+                document.write("<br>")
+            }
+        </script>
+    </body>
+</html>
